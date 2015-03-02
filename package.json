@@ -1,0 +1,32 @@
+{
+  "name": "google-rights-checker",
+  "version": "0.0.1",
+  "description": "CC/SA rights link checker app",
+  "main": "app.js",
+  "dependencies": {
+    "request": "~2.53.0",
+    "cheerio": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iyogeshjoshi/google-rights-checker.git"
+  },
+  "keywords": [
+    "google-api",
+    "CC/SA",
+    "google-search"
+  ],
+  "author": {
+    "name": "Yogesh Joshi",
+    "email": "iyogeshjoshi@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iyogeshjoshi/google-rights-checker/issues"
+  },
+  "homepage": "https://github.com/iyogeshjoshi/google-rights-checker"
+}
