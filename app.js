@@ -19,7 +19,7 @@ if(process.argv.length < 3){
 // Reads CSV file
 var readFile = function(err, data){
   if(err) console.error(err);
-  parseCsv(data, writeFile);
+  parseCsv(data);
 }
 // writes output to the CSV file
 var writeFile = function(err, data){
@@ -78,7 +78,7 @@ var getHTML = function(row, cb){
 }
 
 // parses csv data from string
-var parseCsv = function(input, cb){
+var parseCsv = function(input){
   var parseOptions = {
     trim: true,
     skip_empty_lines: true,
